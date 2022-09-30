@@ -2,9 +2,14 @@ header, footer {
     background-image: url(header-bg.png);
 }
 
+
 footer {
     height: 80px;
     border: 1px solid black;
+}
+
+h1, h2 {
+    color: tan;
 }
 
 h3 {
@@ -29,6 +34,7 @@ p {
     text-align: center;
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
 }
 
 ul, ol {
@@ -47,6 +53,12 @@ body {
     margin: 0px;
 }
 
+
+.bg-color {
+    background-color: white;
+    margin-left: 0;
+    margin-right: 0;
+}
 
 .self-img {
     width: 20%;
