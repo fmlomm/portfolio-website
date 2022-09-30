@@ -1,0 +1,82 @@
+header, footer {
+    background-image: url(header-bg.png);
+}
+
+footer {
+    height: 80px;
+    border: 1px solid black;
+}
+
+h3 {
+    margin: 2rem;
+    font-size: 25px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+div {
+    display: block;
+    text-align: center;
+}
+
+p {
+    margin: 3rem;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    margin: 1em;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+body { 
+    margin: 0px;
+}
+
+
+.self-img {
+    width: 20%;
+    height: auto;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+.bg-gen {
+    background-image: url(bg-gen.webp);
+    padding: 1rem;
+}
+
+.wrapper {
+    font-family: arial, sans-serif;
+    text-align: center;
+    height: 140px;
+}
+
+.gap-sm {
+    height: 50px;
+    width: auto;
+}
+
+.inset {   border: 10px inset gray;  }
+
