@@ -1,3 +1,5 @@
+/* general styles for elements */
+
 header, footer {
     background-image: url(header-bg.png);
 }
@@ -54,15 +56,19 @@ body {
     margin: 0px;
 }
 
+/* specialzed styling for specific elements */
+/* txt-border should be applied to all text elements except footer and any hX or header elements */
 .txt-border {
     border: 2px solid grey;
 }
 
+/* bg-color should apply to all text except footer and any hX or header elements */
 .bg-color {
     background-color: white;
 
 }
 
+/* this class is specifically for personal image  */
 .self-img {
     width: 20%;
     height: auto;
@@ -70,6 +76,7 @@ body {
     padding: 1rem;
 }
 
+/*  this class is used to center any element applied*/
 .center {
     display: block;
     margin-left: auto;
@@ -77,21 +84,33 @@ body {
     margin-bottom: 5rem;
 }
 
+/* this class is used to apply background image to body */
 .bg-gen {
     background-image: url(bg-gen.webp);
     padding: 1rem;
 }
 
+/* this class is used to add a wrapper, specifically to header */
 .wrapper {
     font-family: arial, sans-serif;
     text-align: center;
     height: 140px;
 }
 
+/* this is to add a gap for better spacing */
 .gap-sm {
     height: 50px;
     width: auto;
 }
 
+/* special border for header */
 .inset {   border: 10px inset gray;  }
+
+/* here are the psuedostyles for links */
+a:link      {   color: blue;    }
+a:hover     {   color: green;   }
+a:visited   {   color: purple;  }
+a:active    {   color: black;   }
+
+
 
